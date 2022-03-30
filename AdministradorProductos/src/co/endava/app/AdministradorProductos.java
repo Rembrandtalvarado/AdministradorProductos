@@ -26,7 +26,7 @@ public class AdministradorProductos {
         //create products (cafe, azucar, pastel, te)
         Producto p1 = new Producto(101, "Café", 1500);
         Producto p2 = new Producto(102, "Azucar", 2500);
-        Comida p3 = new Comida(103, "Pastel", 2000, LocalDate.now().plusDays(2));
+        Comida p3 = new Comida(103, "Pastel", 2000, LocalDate.now());
         Producto p4 = new Bebida(104, "Té", 1800);
 
         //price p1
