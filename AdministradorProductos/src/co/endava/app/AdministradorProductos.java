@@ -11,6 +11,7 @@ import co.endava.datos.Producto;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.time.LocalTime;
 
 /**
  *
@@ -28,7 +29,6 @@ public class AdministradorProductos {
         Producto p2 = new Producto(102, "Azucar", 2500);
         Comida p3 = new Comida(103, "Pastel", 2000, LocalDate.now());
         Producto p4 = new Bebida(104, "Té", 1800);
-
         //price p1
         System.out.println(p1.getPrecio());
         //price p2
